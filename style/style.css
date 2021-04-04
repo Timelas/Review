@@ -1,4 +1,4 @@
-/* @font-face {
+@font-face {
   font-family: 'Noto Sans';
   src: url(../font/NotoSans-Regular.ttf);
 }
@@ -497,7 +497,7 @@
   margin-right: 11px;
 }
 */
-/* .easy-steps {
+.easy-steps {
   background-color: #F2EFE6;
   min-height: 602px;
 }
@@ -551,3 +551,88 @@
   margin-left: 53px;
 }
 /* не работает:( хз как править */
+
+.easy-step__circle {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.button__easy-steps {
+  display: flex;
+  width: 224px;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer__social {
+  max-width: 1180px;
+  min-height: 84px;
+  margin: 20px 130px 19px;
+  position: relative;
+  display: flex;
+}
+
+.logo_place_footer {
+  background-image: url(../images/logo_footer.png);
+  width: 110px;
+  height: 42px;
+  top: 25px;
+  left: 0;
+}
+
+.title__in-footer{
+  font-size: 24px;
+  line-height: 36px;
+  margin: 24px auto;
+  width: 242px;
+}
+
+.footer__row-icons {
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  max-width: 393px;
+  height: 32px;
+  padding: 0;
+}
+
+.footer__social-icon {
+  margin-right: 14px;
+}
+
+/* складываются:((
+.footer__social-icon:last-of-type {
+  margin-right: 0;
+}
+*/
+.footer__line {
+  background-color: #F2EFE6;
+  width: 1180px;
+  height: 1px;
+  margin: 19px auto 11px;
+}
+
+.footer__copyright {
+  max-width: 1180px;
+  min-height: 49px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 130px;
+  align-items: center;
+}
+
+.footer__row-links{
+  width: 590px;
+  height: 19px;
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+}
